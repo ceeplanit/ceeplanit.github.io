@@ -1,0 +1,29 @@
+body {
+	font-family: "Arial", sans-serif;
+}
+
+h1, h2, h3, h4 {
+	color:#5F9EA0;
+}
+
+p {
+	color:#444;
+	/*background-color: rgb(235, 235, 230);*/
+}
+
+h4 {
+	font-size: 
+}
+
+a {
+	color: #911;
+	text-decoration: none;
+}
+
+.ProjectListItems, .SkillzListItems {
+	color: rgb(160, 160, 160);
+}
+
+table {
+	background-color: rgba(230, 230, 230, .5);
+}
