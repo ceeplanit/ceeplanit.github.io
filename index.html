@@ -5,15 +5,16 @@
 		<link rel="stylesheet" type="text/css" href="stylesfyle.css">
 	</head>
 	<body>
+	<div id="main">
 		<img src="https://betamore.com/wp-content/uploads/2013/04/logo.png" alt="Betamore Logo"/>
 		<h1>Casey's New Site</h1>
-		<img src="images/giphy.gif" width="50%" alt="Fishing">
+		<!-- <img src="images/giphy.gif" id="fishing" alt="Fishing"> -->
 
 		<h2>My Motto</h2>
 		<p><em>O's, Strohs and Natty Bohs</em>, <strong>hon</strong>.</p>
 
 		<h3>My Mission Statement</h3>
-		<p>Lorem mission sit dolor amet.</p>
+		<p>Lorem <span class="word-underline">mission</span> sit dolor amet.</p>
 
 		<h4>Where the links at?</h4>
 		<a href="http://www.espn.com" title="ESPN" target="_blank">This is for SPORTSBALL</a>
@@ -21,21 +22,24 @@
 		<a href="mailto:caseyengel11@gmail.com" title="Email Me">Email me, guys</a>
 
 		<h4>Project I've Worked On</h4>
+		<div class="ProjectListItems">
 		<ul>
-			<li class="ProjectListItems">This one</li>
-			<li class="ProjectListItems">That one</li>
-			<li class="ProjectListItems">No, no, that <em><strong>other</strong></em> one</li>
+			<li>This one</li>
+			<li>That one</li>
+			<li id="secretjob">No, no, that <em><strong>other</strong></em> one</li>
 			<!-- Don't tell them about that other one though -->
 		</ul>
-
+		</div>
 		<h4>Skillz</h4>
+		<div class="SkillzListItems">
 		<ol>
-			<li class="SkillzListItems">Sportsball</li>
-			<li class="SkillzListItems">Video Games</li>
-			<li class="SkillzListItems">Laughing</li>
-			<li class="SkillzListItems">Other</li>
+			<li>Sportsball</li>
+			<li>Video Games</li>
+			<li>Laughing</li>
+			<li>Other</li>
 		</ol>
-		<table border="1px solid" border-color="red">
+		</div>
+		<table>
 			<tr>
 				<th>Table Head</th>
 			</tr>
@@ -49,6 +53,7 @@
 				<td>Toes</td>
 			</tr>			
 		</table>
+	</div>	
 	</body>
 </html>
 

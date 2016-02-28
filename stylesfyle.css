@@ -1,13 +1,23 @@
 body {
 	font-family: "Arial", sans-serif;
+	background-attachment: fixed;
+	background: url(images/bahhh.jpeg);
+	background-position: center center;
+	background-repeat: no repeat;
+	background-size: cover;
+}
+
+#main {
+	width: 700px;
+	margin: auto;
 }
 
 h1, h2, h3, h4 {
-	color:#5F9EA0;
+	color:orange;
 }
 
 p {
-	color:#444;
+	color:white;
 	/*background-color: rgb(235, 235, 230);*/
 }
 
@@ -20,10 +30,51 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	opacity: .5;
+	border-top: 1px solid #911;
+	border-bottom: 1px solid #911;
+}
+
+#fishing {
+	width: 100%;
+	border: 10px dashed #5F9EA0;
+	/*padding: 10px;*/
+}
+
 .ProjectListItems, .SkillzListItems {
-	color: rgb(160, 160, 160);
+	color: white;
+}
+
+#secretjob {
+	color: black;
+}
+
+.word-underline {
+	text-decoration: underline;
 }
 
 table {
-	background-color: rgba(230, 230, 230, .5);
+	border: 1px solid white;
+	text-align: center;
+	color: white;
+	/*border-collapse: collapse;*/
 }
+
+td, th {
+	border: 1px solid white;
+	padding: 10px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
