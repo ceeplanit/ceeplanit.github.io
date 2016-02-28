@@ -1,7 +1,7 @@
 body {
 	font-family: "Arial", sans-serif;
 	background-attachment: fixed;
-	background: url(images/bahhh.jpeg);
+	background-image: url(images/bahhh.jpeg);
 	background-position: center center;
 	background-repeat: no repeat;
 	background-size: cover;
@@ -44,6 +44,20 @@ a:hover {
 
 .ProjectListItems, .SkillzListItems {
 	color: white;
+}
+
+.floatright {
+	float: right;
+	width: 50%;
+}
+
+.floatleft {
+	float: left;
+	width: 50%;
+}
+
+#clearfloat {
+	clear: left;
 }
 
 #secretjob {
