@@ -33,8 +33,8 @@ function displaySquare(squaredNumber) {
 var pageNode = document.getElementsByTagName('body')[0];
 // pageNode.innerHTML = '<h1>Oh Noes!</h1> <p>I just changed the whole page!</p>'
 
-var title = document.getElementById('openTitle');
-title.innerHTML = "Thanks for Coming to Class";
+// var title = document.getElementById('openTitle');
+// title.innerHTML = "Thanks for Coming to Class";
 
 
 }
